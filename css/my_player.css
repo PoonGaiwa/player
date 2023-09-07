@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-progress {
+  position: relative;
+  width: 1920px;
+  height: 4px;
+}
+
+.player-progress .progress-line {
+  position: relative;
+  width: 0;
+  height: 4px;
+  background-color: rgb(18,177,226);
+}
+
+.player-progress:hover .progress-unit{
+  display: block;
+}
+
+.player-progress .progress-unit {
+  display: none;
+  position: absolute;
+  right: -18px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: rgb(18,177,226);
+  cursor: pointer;
+}
+
+.player-time {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  color: #fff;
+}
+
+.player-time span {
+  user-select: none;
+}
+
+.player-operator {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #333;
+}
+
+.player-operator i {
+  padding: 0 10px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.player-operator .operator-right {
+  display: flex;
+  align-items: center;
+}
+
+.player-operator .operator-right .volume-range {
+  width: 100px;
+  height: 5px;
+  margin-right: 30px;
+}
+
+.is-loop {
+  color: pink;
+}
+
+.is-muted {
+  color: pink;
+}

@@ -1,0 +1,44 @@
+{
+  "id": "4218510",
+  "name": "自定义播放器",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1444865",
+      "name": "loop",
+      "font_class": "loop1",
+      "unicode": "e7de",
+      "unicode_decimal": 59358
+    },
+    {
+      "icon_id": "4767104",
+      "name": "pause",
+      "font_class": "pause",
+      "unicode": "e7fe",
+      "unicode_decimal": 59390
+    },
+    {
+      "icon_id": "4767015",
+      "name": "fullscreen",
+      "font_class": "fullscreen",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    },
+    {
+      "icon_id": "10678457",
+      "name": "volume",
+      "font_class": "volume",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "16619219",
+      "name": "play",
+      "font_class": "play",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    }
+  ]
+}
